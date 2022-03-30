@@ -1,0 +1,19 @@
+### Required Packages ###
+
+pandas
+numpy
+jupyterlab>=3.3.2
+ipywidgets>=7.6
+
+
+matplotlib
+seaborn
+plotly
+jupyter-dash
+
+sklearn
+optuna
+xgboost
+lightgbm
+
+joblib

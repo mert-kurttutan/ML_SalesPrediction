@@ -1,0 +1,28 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+
+
+
+
+# ignore original data files, not all csv files
+*item_categories.csv
+*items.csv
+*sample_submission.csv
+*shops.csv
+*test.csv
+*sales_train.csv
+
+
+
+# Ignore pre-processed files, as they can be reprocuded by the Feature engineering notebook
+*data_sales_00.pickle
+*data_sales_01.pickle
+
+
