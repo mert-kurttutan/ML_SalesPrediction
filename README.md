@@ -4,7 +4,7 @@ This repositorty contains canonical experimental ML Pipeline that consists of da
 
 ## Description
 
-I splitted the repository into the following parts:
+Repository consists of the main following parts:
 * EDA: Explanatory Data Analsis and Dashboard visual web app
 * Feature engineering: Created and processed features, such as normalization or getting time-lagged features which is crucial future sales prediction
 * Training Boosted Tree and hyperparameter tuning: Trained boosted tree model using xgboost and hyperparameter tuning using optuna
