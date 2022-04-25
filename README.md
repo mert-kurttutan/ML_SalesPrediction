@@ -17,10 +17,15 @@ I splitted the repository into the following parts:
 
 To get every required package and their dependencies correct, I suggest creating new virtual env (e.g. with anaconda or miniconda). Then, run
 `!git clone https://github.com/mert-kurttutan/ML_SalesPrediction.git`
+
 `cd ML_SalesPrediction`
+
 `pip install -r requirements.txt `
+
 `cd data `
+
 `unzip competitive-data-science-predict-future-sales.zip`
+
 If you run this in enviroment with package installed already, some dependency conlfict might occur.
 
 ### Executing program
