@@ -16,6 +16,7 @@ I splitted the repository into the following parts:
 ### Installing and Dependencies
 
 To get every required package and their dependencies correct, I suggest creating new virtual env (e.g. with anaconda or miniconda). Then, run
+
 `!git clone https://github.com/mert-kurttutan/ML_SalesPrediction.git`
 
 `cd ML_SalesPrediction`
