@@ -1,4 +1,4 @@
-# Hack Language Assembler (with Python)
+# Machine Learning Project - Future Sales PRedicition
 
 This repositorty contains canonical experimental ML Pipeline that consists of data preprocessing data analysis, hyperparameter tuning, training and inference. In particular, we will do all of these on <a href="https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales"> Future Sales Data </a> ensemble methods and stacking using XGBoost and Scikit.
 
