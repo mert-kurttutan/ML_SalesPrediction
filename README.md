@@ -33,6 +33,35 @@ If you run this in enviroment with package installed already, some dependency co
 
 * Just run the notebook according to their number
 
+## Serving
+I added serving/deployment part that accepts data on json format with FastAPI. To run the app, you need to build the docker image and run it. This can be as follows. First go to deplotment/app directory
+
+`cd deployment/app`
+
+Then build docker image from files therein,
+
+`sudo docker build -t xgb_reg:v1 .`
+
+
+Next, run docker container from this docker image
+
+`sudo docker run --rm -p 81:80 xgb_reg:v1 `
+
+Now, it can accept requests. For instance, we can send data with POST request to make predictions.
+Go to deployment/prediction_examples and use the following command in terminal to send POST request
+
+```
+curl -X POST http://localhost:81/predict \
+
+  -d @./prediction_examples/batch_00.json \
+ 
+  -H "Content-Type: application/json" 
+  
+```
+
+**Note:** The data sent to the model is in preprocessed form as obtained in feature engineering notebook.
+
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
