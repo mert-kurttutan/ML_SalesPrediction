@@ -49,7 +49,7 @@ Next, run docker container from this docker image
 `sudo docker run --rm -p 81:80 xgb_reg:v1 `
 
 Now, it can accept requests. For instance, we can send data with POST request to make predictions.
-Go to deployment/prediction_examples and use the following command in terminal to send POST request
+Go to deployment and use the following command in terminal to send POST request
 
 ```
 curl -X POST http://localhost:81/predict \
