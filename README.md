@@ -53,9 +53,7 @@ Go to deployment and use the following command in terminal to send POST request
 
 ```
 curl -X POST http://localhost:81/predict \
-
   -d @./prediction_examples/batch_00.json \
- 
   -H "Content-Type: application/json" 
   
 ```
