@@ -37,7 +37,7 @@ If you run this in enviroment with package installed already, some dependency co
 ## Serving
 I added serving/deployment part that accepts data on json format with FastAPI. To run the app, you need to build the docker image and run it. This can be as follows. First go to deplotment/app directory
 
-`cd deployment/app`
+`cd deployment`
 
 Then build docker image from files therein,
 
