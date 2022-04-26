@@ -10,6 +10,7 @@ Repository consists of the main following parts:
 * Training Boosted Tree and hyperparameter tuning: Trained boosted tree model using xgboost and hyperparameter tuning using optuna
 * Training of Random Forest and hyperparameter tuning: Trained Random forest model using xgboost and hyperparameter tuning using optuna,
 * Stacking: Implemented stacking method based on boosted tree, random forest and linear regressor
+* Deployment: Model serving with FastAPI and giving prediction
 
 ## Getting Started
 
